@@ -17,16 +17,13 @@ body {
     background: #dfeee4; /* light green background */
 }
 
-.box {
-    background: black;
+.color-button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
     color: white;
-
-    padding: 20px 40px;
-    font-size: 20px;
-}
-
-button {
-    padding: 12px 30px;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
