@@ -1,0 +1,32 @@
+/* Abner Dos Santos Almeida 76030 */
+
+body {
+    /* reset default margin and set font */
+    margin: 0;
+    font-family: Arial;
+}
+
+#color-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    background: #dfeee4; /* light green background */
+}
+
+.box {
+    background: black;
+    color: white;
+
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
