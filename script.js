@@ -10,3 +10,16 @@ const hex = [
 
 btn.addEventListener("click", function(){
 
+let randomColor = "#"
+
+for(let i = 0; i < 6; i++){
+
+randomColor += hex[Math.floor(Math.random()*16)]
+
+}
+
+colorValue.textContent = randomColor
+
+section.style.backgroundColor = randomColor
+
+})
